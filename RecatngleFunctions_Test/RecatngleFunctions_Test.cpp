@@ -58,9 +58,9 @@ namespace RecatngleFunctionsTest
 		{
 			//This testing that function should  if input is more than 1 and less than 99 inclusive
 			//Let's take a half, this means 50
-			int length = 50;
+			int length = 0;
 			setLength(50, &length);
-			Assert::IsTrue(5 == length);
+			Assert::IsTrue(50 == length);
 		}
 
 		TEST_METHOD(LengthOutOfBoundsLessThanOne)
